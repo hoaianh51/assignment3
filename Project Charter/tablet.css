@@ -1,0 +1,73 @@
+/* Full page */
+* {
+  font-size: 14px;
+  margin: 0;
+  border-collapse: collapse;
+}
+body {
+  display: block;
+
+  background-color: blue;
+}
+/* sections */
+section {
+  background-color: white;
+  padding: 20px 10px;
+  margin: 20px 15px;
+}
+.section-title {
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: solid gray 2px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+/* section content */
+.content {
+  padding-top: 8px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+h2 {
+  font-size: 14px;
+  color: black;
+  padding-bottom: 4px;
+}
+.grid1 {
+  display: block;
+}
+.grid2 {
+  display: block;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.goal {
+  border-bottom: solid gray 1px;
+}
+.scope {
+  padding-bottom: 10px;
+}
+.border {
+  border-bottom: 1px gray dotted;
+  margin-bottom: 8px;
+}
+
+/* icon */
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid black;
+}
+.icon {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" 
+     href="/css/laptop.css"> 
+     <link rel="stylesheet" type="text/css" media="screen and (max-width: 800px)" href="/css/tablet.css">   
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="/css/mobile.css">   
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 02</title>
+  </head>
+  <body>
+    <div id="banner">
+      <img src="./images/banner.jpg" alt="a background picture" class="picture" />
+      <div class="intro">
+        <h1>Nguyễn Thanh Hoài Anh</h1>
+        <span>Full Stack Developer Student</span>
+      </div>
+    </div>
+
+    <section id="nav-bar">
+      <nav class="container nav-bar">
+        <div class="thong-tin border" >
+          <i class="icon-user icon"></i>
+          <a href="#about" class="nav">Thông tin</a>
+        </div>
+        <div class="ly-lich border">
+          <i class="icon-doc-text-inv icon"></i>
+          <a href="#job-info" class="nav">Lý lịch</a>
+        </div>
+        <div class="name border">
+<img src="./images/hoaianh.jpg" alt="a picture of hoai anh" class="Advanced">
+        </div>
+        <div class="chung-chi border">
+          <i class="icon-mail-alt icon"></i>
+          <a href="#certificate" class="nav">Chứng chỉ</a>
+        </div>
+        <div class="du-an border">
+          <i class="icon-star-1 icon"></i>
+          <a href="#project" class="nav">Dự Án</a>
+        </div>
+      </nav>
+    </section>
+
+    <section id="about" class="bg-grey">
+      <div class="container about padding ">
+        <div id="target">
+          <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+          <p>
+            Là một sinh viên đang học tại FUNIX. Em mong muốn tìm được công việc mà có thể vận dụng những kiến thức đã được trau dồi và không ngừng cải thiện bản thân, cũng như hoàn thành tốt những nhiệm vụ được giao.
+          </p>
+        </div>
+        <div id="personal-info" >
+          <h2 class="section-title">Thông tin cá nhân</h2>
+        <!-- container hidden ban đầu -->
+            <div class="mt-40"id="infoContainer" >
+            <div><span>Giới tính</span> : Nam</div>
+            <div><span>Ngày sinh</span> : 05/01/2007</div>
+            <div><span>Điện thoại</span> : (+84) 934521xxx</div>
+            <div><span>Email</span> : anhnthfx29300@funix.edu.vn</div>
+            <div><span>Địa chỉ</span> : N04 UDIC Complex, đường Hoàng Đạo Thúy, Hà Nội</div>
+            <div><span>Website</span> : https://abc.tech</div>
+          <div class="reference">
+            <a href="https://twitter.com/NguynThanhHoiA1"><i class="icon-twitter icon"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100070077220515"><i class="icon-facebook icon"></i></a>
+            <i class="icon-gplus"></i>
+            <i class="icon-linkedin"></i>
+          </div>
+          </div>
+          <!-- container show ban đầu -->
+          <div>
+            <form id="userForm">
+                <input type="email" id="email" name="email" required placeholder="Enter email"><br>
+                <div>Hãy nhập email để xác thực</div><br><br>
+                <input type="submit" value="Submit" id="submitBtn">
+            </form>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="container job-info">
+        <div class="grid " style="margin-top: 20px">
+          <h2>Kinh nghiệm</h2>
+
+          <i class="ic-toolbox ic"></i>
+          <button class="show">👇View More</button>
+          <div class="section-content">Chưa có</div>
+        </div>
+        <div class=" grid" style="margin-top: 20px">
+          <h2>Học vấn</h2>
+          <i class="ic-pencil ic"></i>
+          <button class="show">👇View More</button>
+          <ul class="section-content">
+            <li class="school">THPT chuyên Hà Nội-Amsterdam</li>
+            <div class="time">09/2018 - 05/2025</div>
+            <ul class="noi-dung">
+              <li>
+                Tốt nghiệp chứng chỉ Song bằng thuộc hệ Cambridge & chuyên Lý
+            </li>
+              <li>Học lực: Xuất Sắc</li>
+              <li>GPA: 9.4/10</li>
+            </ul>
+              <li class="school">FUNIX</li>  
+              <div class="time">06/2023 - 06/2025</div>
+              <ul class="noi-dung">  
+              <li>Môn học: Lập trình web</li>
+            </ul>
+          </ul>
+        </div>
+        <div class="grid " style="margin-top: 20px">
+          <h2>Hoạt động</h2>
+          <i class="ic-toolbox ic"></i>
+          <button class="show">👇View More</button>
+          <ul class="section-content">
+              <li class="school">Ngày hội anh tài 2022</li>
+              <div class="time">2022-2023</div>
+              <ul class="noi-dung">
+              <li>Vai trò: người tham gia chơi thuộc khối Lý</li>
+              <li>Vô địch Tài năng khối chuyên</li>
+              </ul>
+              <li class="school">Ngày hội anh tài 2023</li>
+              <div class="time">2023</div>
+              <ul class="noi-dung">
+              <li>
+                Vai trò: lead Ngày Hội Thể Thao thuộc khối Lý
+              </li>
+              <li>Vô địch Tài năng khối chuyên</li>
+              <li>Vô địch Ngày hội Thể Thao</li>
+            </ul>
+              <li class="school">Tiếp sức mùa thi</li>
+              <div class="time">2023</div>
+              <ul class="noi-dung">
+                <li>
+                Vai trò: tình nguyện viên cho đợt thi THPT và đợt thi song bằng
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div class="grid " style="margin-top: 20px">
+          <h2>Sở thích</h2>
+          <i class="ic-telescope ic"></i>
+          <button class="show">👇View More</button>
+          <div class="section-content hobby">
+              <div class="icons hobbyicon">
+              <div>
+                <div class="circle"><i class="icon-soccer"></i></div>
+              <div>Đá bóng</div>
+            </div>
+            <div>
+              <div class="circle"><i class="ic-hotairballoon"></i></div>
+              <div>Chơi game</div>
+            </div>
+            <div>
+              <div class="circle"><i class="icon-movie"></i></div>
+              <div>Xem phim</div>
+            </div>
+            <div>
+              <div class="circle"><i class="ic-strategy"></i></div>
+              <div>Tâm lí học</div>
+            </div>
+            </ul>
+              </div>
+          </div>
+        </div>
+        <div class="grid " style="margin-top: 20px">
+          <h2>Ngôn ngữ</h2>
+          <i class="ic-mic ic"></i>
+          <button class="show">👇View More</button>
+        <div class="section-content">
+          <div class="">Tiếng Anh - SAT 1550</div>
+          <span class="blue"></span><span class="blue"></span><span class="blue"></span>
+          <div class="">Tiếng Việt - C3</div>
+          <span class="blue"></span><span class="blue"></span><span class="blue"></span>
+        </div>
+        
+        </div>
+        <div class="grid" style="margin-top: 20px">
+          <h2>Kỹ năng</h2>
+
+          <i class="ic-tools-2 ic"></i>
+          <button class="show">👇View More</button>
+          <div class="section-content">
+              <div class="">HTML: Fundamental</div>
+              <span class="blue"></span><span class="gray"></span><span class="gray"></span>
+              <div class="">Javascript: None</div>
+              <span class="gray"></span><span class="gray"></span><span class="gray"></span>
+              <div class="">CSS: Fundamental</div>
+              <span class="blue"></span><span class="gray"></span><span class="gray"></span>
+              <div class="">FPL: Advanced</div>
+              <span class="blue"></span><span class="blue"></span><span class="blue"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section id="certificate" class="bg-grey">
+      <div class="container padding">
+        <h2 class="section-title">Chứng chỉ - Giải thưởng</h2>
+        <div class="thanh-tich">
+        <div class="thanh-tich-detail top">
+          <img src="./images/Cert_WEB.png" alt="filter picture" class="picture2" />
+          <div class="prize">Huy chương Bạc toán quốc tế ASMO</div>
+        </div>
+        <div class="thanh-tich-detail top ">
+          <img src="./images/screenshot_1704512591.png" alt="SAT score report" class="picture2 right" />
+        <div>
+          <div class="prize">
+          Thành tích top 1% kì thi SAT
+        </div>
+        <div class="detail-prize">Điểm: 1550/1600</div>
+        <div class="detail-prize">Điểm Toán: 800/800</div>
+        </div>
+      </div>
+        <div class="thanh-tich-detail">
+        <img src="./images/Cert_PRF.png" alt="filter picture" class="picture2" />
+        <div>
+        <div class="prize">
+          Giải nhất học sinh giỏi thành phô môn khoa học năm 2022
+        </div>
+        <div class="detail-prize">Điểm: 37.75</div>
+        <div class="detail-prize">Hạng: 16</div>
+      </div>
+    </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="project">
+      <div class="container padding">
+        <h1 class="section-title">Dự án</h1>
+        <div class="project">
+          <div>
+            <img src="./images/st.jpg" alt="picture of Hoai Anh and others at the event" class="picture3">
+            <div class="project-title">Science Tornado</div>
+            <div class="flex">
+              <div class="timeline">2023</div>
+              <i class="icon-lamp thanh-tay">SOS</i>
+              <i class="icon-user-1 thanh-tay">Ban chuyên môn</i>
+            </div>
+            <table>
+              <tr>
+                <td class="cd">Mô tả</td>
+                <td>Sự kiện khoa học do học sinh làm lớn nhất Hà Nội</td>
+              </tr>
+              <tr>
+                <td class="cd">Nhiệm vụ</td>
+                <td>Làm thí nghiệm, đứng nói thí nghiệm</td>
+              </tr>
+              <tr>
+                <td class="cd">Thông tin</td>
+                <td>Facebook</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <img src="./images/fantamsy.png" alt="the facebook page of Fantamsy" class="picture3">
+            <div class="project-title">Nhà sáng lập</div>
+            <div class="flex">
+            <div class="timeline">2023</div>
+            <i class="icon-lamp thanh-tay">Fantamsy</i>
+            <i class="icon-user-1 thanh-tay">Admin</i>
+          </div>
+            <table>
+            <tr>
+              <td class="cd">Mô tả</td>
+              <td>Ban tổ chức giải đấu FPL thuộc trường THPT chuyên Hà Nội-Amsterdam</td>
+            </tr>
+            <tr>
+              <td class="cd">Nhiệm vụ</td>
+              <td>Admin, người lên lịch đăng bài & tổ chức meeting offline</td>
+            </tr>
+            <tr>
+              <td class="cd">Thông tin</td>
+              <td>Facebook</td>
+            </tr>
+            </table>
+          </div>
+          <div>
+            <img src="./images/hshk.jpg" alt="Hoai Anh introduced in a post on the page" class="picture3">
+            <div class="project-title"> Diễn giả Vật Lí</div>
+            <div class="flex">
+              <div class="timeline">2023</div>
+              <i class="icon-lamp thanh-tay">HSHK</i>
+              <i class="icon-user-1 thanh-tay">Diễn giả</i>
+            </div>
+            <table>
+            <tr>
+              <td class="cd">Mô tả</td>
+              <td>Là dự án với mục đích giúp các học sinh thi vào 10</td>
+            </tr>
+            <tr>
+              <td class="cd">Nhiệm vụ</td>
+              <td>Là người đăng những bài post trên group học tập môn vật lí của dự án</td>
+            </tr>
+            <tr>
+              <td class="cd">Thông tin</td>
+              <td>Facebook</td>
+            </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-grey">
+      <div class="container footer">
+        <a href="" class="thanh-tay">
+        <i class="icon-facebook-circled icon"></i> Facebook
+      </a>
+      <a href="" class="thanh-tay">
+        <i class="icon-linkedin-circled icon"></i> Linkedin
+      </a>
+      <a href="" class="thanh-tay">
+        <i class="icon-github-circled icon"></i> Github
+      </a>
+      </div>
+    </section>
+    <script src="/javascript/script.js"></script>
+  </body>
+</div>
+
+</html>

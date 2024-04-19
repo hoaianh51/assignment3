@@ -1,271 +1,73 @@
+/* Full page */
 * {
-  margin: 0px;
+  font-size: 14px;
+  margin: 0;
+  border-collapse: collapse;
 }
-h1 {
-  text-transform: uppercase;
-}
-span {
-  text-transform: uppercase;
-  font-size: 11px;
-}
-.bg-grey {
-  background: #f8f8f8;
-}
+.my-body {
+  display: block;
 
-section > .container {
-  margin: auto;
-  display: grid;
+  background-color: blue;
 }
-.nav-bar {
-  text-align: center;
-  grid-template-columns: 1fr 1fr 0.3fr 1fr 1fr;
-  border: 1px rgb(129, 129, 129);
-  padding: none;
-}
-.border {
-  border-left: 1px solid rgb(129, 129, 129);
-}
-.nav-bar > div {
+/* sections */
+section {
   background-color: white;
-  text-align: center;
-}
-#banner {
-  position: relative;
-  text-align: center;
-}
-.picture {
-  height: auto;
-  width: 100%;
-  opacity: 0.7;
-}
-.intro {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-size: 11px;
-}
-.nav {
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.thong-tin {
-  grid-column: 1/2;
-}
-.icon {
-  color: rgb(30, 83, 182);
-}
-
-.about {
-  grid-template-columns: 1fr 1fr;
-  padding-left: 30px;
-}
-.reference {
-  padding-top: 10px;
-}
-#target,
-#personal-info {
-  display: grid;
-  grid-template-rows: 100px 150px;
-}
-#target {
-  width: 85%;
-}
-.job-info {
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
-  display: grid;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 70px auto;
-  border: solid;
-  border-color: grey;
-  border-width: 2px;
-  padding: 60px 25px;
-}
-.ic {
-  font-size: 275%;
-}
-.circle {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid 1px blue;
-  margin-bottom: 10px;
-}
-.hobbyicon {
-  color: blue;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-}
-.hobby {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-}
-.section-content {
-  grid-column: 1/-1;
-}
-.mt-40 {
-  list-style-type: none;
-  padding-left: none;
-}
-.mt-40 > div {
-  margin-bottom: 3px;
+  padding: 20px 10px;
+  margin: 20px 15px;
 }
 .section-title {
-  font-weight: bold;
-  font-size: 25px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-.school {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.time {
-  font-style: italic;
-  margin-bottom: 10px;
-}
-ul {
-  list-style-type: none;
-}
-.section-content > li::before {
   color: blue;
-  content: "\2022";
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-.noi-dung {
-  list-style-type: none;
-  padding-left: 20px;
-}
-.gray,
-.blue {
-  display: inline-block;
-  height: 2px;
-  margin-right: 10px;
-  width: 45px;
-}
-.gray {
-  background: gray;
-}
-.padding {
-  padding-bottom: 15px;
-  padding-top: 30px;
-}
-.blue {
-  background: blue;
-}
-.thanh-tich {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.thanh-tich-detail {
-  display: inherit;
-  grid-template-columns: 1fr 2fr;
-}
-.top {
-  border-bottom: 2px solid #d6c08d;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-}
-.right {
-  border-left: 2px solid #d6c08d;
-  padding-left: 30px;
-}
-.picture2 {
-  width: 250px;
-  margin-right: 30px;
-}
-.prize {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.detail-prize {
-  color: gray;
-}
-.project {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.picture3 {
-  width: 100%;
-  height: 200px;
-  margin-bottom: -5px;
-}
-.flex {
-  display: flex;
-  column-gap: 20px;
-  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: solid gray 2px;
+  margin-bottom: 15px;
   padding-bottom: 5px;
-  height: 18px;
-  padding-top: 7px;
-  border: 1px gray solid;
 }
-.project-title {
-  text-transform: uppercase;
-  padding: 10px 7px;
-  border: 1px gray solid;
+
+/* section content */
+.content {
+  padding-top: 8px;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
-.thanh-tay {
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
+.my-h2 {
+  font-size: 14px;
   color: black;
+  padding-bottom: 4px;
 }
-table {
-  border: 1px gray solid;
-  border-collapse: collapse;
-  text-align: top;
-  width: 100%;
+.grid1 {
+  display: block;
 }
-td {
-  border-top: 1px gray solid;
-  padding-left: 10px;
+.grid2 {
+  display: block;
 }
-.cd {
-  width: 20%;
-  padding: 15px 0 15px 10px;
+.my-ul {
+  list-style-type: none;
+  padding: 0;
 }
-.footer {
-  grid-template-columns: repeat(3, 33%);
-  width: 60%;
-  align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  column-gap: 20px;
+.goal {
+  border-bottom: solid gray 1px;
+}
+.scope {
+  padding-bottom: 10px;
+}
+.border {
+  border-bottom: 1px gray dotted;
+  margin-bottom: 8px;
+}
+
+/* icon */
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid black;
+}
+.icon {
   font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.timeline {
-  background-color: blue;
-  color: white;
-  padding-left: 3px;
-  padding-right: 3px;
-  font-size: 11px;
+  display: flex;
+  align-items: center;
   text-align: center;
-  padding: auto;
-  border-radius: 30%;
-}
-.Advanced {
-  border-radius: 100%;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  position: relative;
-  top: -70px;
-  /* đổi màu vì background của ảnh là màu trắng */
-  background-color: rgb(189, 189, 189);
-  display: none;
+  justify-content: center;
 }
